@@ -46,7 +46,7 @@ resource "kubernetes_deployment" "mini_devops_app" {
       spec {
         container {
           name  = "mini-devops-app"
-          image = "naumanfazal5/mini-devops-app:v1"
+          image = "naumanafzal5/mini-devops-app:latest"
 
           port {
             container_port = 3000
